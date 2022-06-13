@@ -1,0 +1,32 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("clip.jpg");
+    
+    
+}
+.boc{
+   
+  border: 2px solid black;
+  
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background: white;
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-weight: 900;
+   
+}
+.pad{
+    padding: 20rem;
+}
+.last{
+    padding-bottom: 7rem;
+}
+.btn{
+    width:20rem;
+}
+.g{ 
+    margin-top: 1rem;
+} 
