@@ -8,7 +8,6 @@ body{
 .boc{
    
   border: 2px solid black;
-  
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
@@ -16,17 +15,49 @@ body{
   background-repeat: no-repeat;
   background-size: auto;
   font-weight: 900;
+  align-items: center;
+  justify-content: center;
    
 }
+
 .pad{
-    padding: 20rem;
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4rem;
+}
+.hd{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 8rem;
+    font-family: 'Inter';
+
+
 }
 .last{
     padding-bottom: 7rem;
 }
-.btn{
+.b{
     width:20rem;
 }
 .g{ 
     margin-top: 1rem;
 } 
+
+@media screen and (max-width:600px){
+    .pad{
+       display: grid;
+       grid-template-columns: 1fr;
+       row-gap: 2rem;
+}
+    
+}
+@media screen and (max-width:1024px){
+    .pad{
+       display: grid;
+       grid-template-columns: 1fr;
+       row-gap: 2rem;
+}
+    
+}

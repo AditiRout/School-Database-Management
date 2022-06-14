@@ -4,8 +4,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 mt-5">
-                <h2 class="alert alert-success test-center">Update Student</h2>
-                <form method="post" action="/student/update/<%=data._id%>">
+                <h2 class="alert alert-success test-center">Update teacher</h2>
+                <form method="post" action="/teacher/update/<%=data._id%>">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" name="name" value="<%=data.name %> "placeholder="Enter name">
@@ -16,16 +16,21 @@
                         <input type="email" class="form-control" id="email" name="email" value="<%=data.email %>" placeholder="Enter email">
                         
                       </div>
+                      <div class="form-group">
+                        <label for="dept">Department</label>
+                        <input type="dept" class="form-control" id="dept" name="dept" value="<%=data.dept %>" placeholder="Enter dept">
+                        
+                      </div>
                     <div class="form-group">
-                      <label for="fees">Fees</label>
-                      <input type="number" class="form-control" id="fees" name="fees"  placeholder="Enter fees">
+                      <label for="salary">salary</label>
+                      <input type="number" class="form-control" id="salary" name="salary"  placeholder="Enter salary">
                       
                    
                     
                     <button  type="submit" class="btn btn-secondary ">Update</button>
                     
                   </form>
-                  <form action="/student" method="get"><button  type="submit" class="btn btn-primary g">Back</button></form>
+                  <form action="/teacher" method="get"><button  type="submit" class="btn btn-primary g">Back</button></form>
                   
             </div>
             
