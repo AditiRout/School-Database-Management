@@ -3,7 +3,7 @@ dotenv.config()
 const {join}=require('path')
 const express=require('express')
 const app=express()
-const port=process.env.port
+const port=process.env.PORT || 5000
 const DB_URL=process.env.DB_URL
 const {connectDB} =require('./db/connect.js')
 const {homy}=require('./controllers/homecontrol.js')
