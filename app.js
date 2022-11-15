@@ -28,6 +28,7 @@ app.use("/student",web)
 app.use("/teacher",web2)
 app.listen(port,()=>{
     console.log('connected at the port')
+     console.log(port)
 })
 
 app.get('/',homy)
